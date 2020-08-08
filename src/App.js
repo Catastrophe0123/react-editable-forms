@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import EditableForms from './Forms/EditableForm';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='App'>
+			<EditableForms
+				defaults={true}
+				defaultValues={['sad', 'hello', 'asdqwjdkn']}
+				onSubmit={() => {
+					console.log('i ran');
+				}}
+				data={{ sad: 'hello', hello: 'world' }}
+			/>
+		</div>
+	);
 }
 
 export default App;
