@@ -1,0 +1,20 @@
+{
+	"name": "react-editable-form",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./build/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Catastrophe0123/react-editable-forms.git"
+	},
+	"author": "Navaneeth V",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Catastrophe0123/react-editable-forms/issues"
+	},
+	"homepage": "https://github.com/Catastrophe0123/react-editable-forms#readme"
+}
